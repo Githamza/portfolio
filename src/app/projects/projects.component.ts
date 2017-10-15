@@ -14,6 +14,20 @@ name: string;
 
   ngOnInit() {
   }
+  Puissance4Href(){
+    window.open("https://ide.c9.io/githamza/puissance4", "_blank");
+}
+PortfolioHref(){
+  window.open("https://github.com/Githamza/portfolio", "_blank");
+}
+
+PlannerHref(){
+  window.open("https://github.com/Githamza/planner", "_blank");
+}
+PostitHref(){
+  window.open("https://c9.io/githamza/postit", "_blank");
+}
+
   openDialog(project: string): void {
   this.name=project;
   console.log(this.name);

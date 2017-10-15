@@ -5,7 +5,6 @@ import {MdSnackBarModule} from '@angular/material';
 
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { AppComponent } from './app.component';
-import { MnFullpageModule } from 'ngx-fullpage';
 import { MenuAccueilComponent } from './menu-accueil/menu-accueil.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialModule} from '@angular/material';
@@ -18,8 +17,6 @@ import {Competences1Component} from './competences1/competences1.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ContactService } from './services/contact.service';
-import { PresentationMobileComponent } from './presentation-mobile/presentation-mobile.component';
-import { VdesktopComponent } from './vdesktop/vdesktop.component';
 import { RouterModule } from '@angular/router';
 import { ProjectsComponent } from './projects/projects.component';
 import { BoiteDialogueComponent } from './boite-dialogue/boite-dialogue.component';
@@ -34,8 +31,6 @@ import { BoiteDialogueComponent } from './boite-dialogue/boite-dialogue.componen
     ExperiencesComponent,
     Competences1Component,
     ContactComponent,
-    PresentationMobileComponent,
-    VdesktopComponent,
     ProjectsComponent,
     BoiteDialogueComponent
   ],
@@ -50,7 +45,6 @@ import { BoiteDialogueComponent } from './boite-dialogue/boite-dialogue.componen
 
   AngularSvgIconModule,
     BrowserModule,
-     MnFullpageModule.forRoot(),
      BrowserAnimationsModule,
      MaterialModule,
      FlexLayoutModule,
