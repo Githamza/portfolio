@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+
+.container {
+width:60%;
+background-color: white;
+margin:auto ;
+}
+@media screen and (max-width:599px) {
+.container {
+  width: 100%;
+  padding:0px;
+  margin: auto
+}
+
+}
+
+
+
+
+html, body {
+    height: 100%;
+    margin:0;
+   padding: 0;
+}
